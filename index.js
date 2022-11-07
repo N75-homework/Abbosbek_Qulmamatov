@@ -8,7 +8,7 @@ var a = 'TDIU';
 var b = 'TDMI';
 var c = 'MU';
 
-otm = prompt(`${ism}  Qaysi OTMni Tanlaysiz:  1. ${a} 2. ${b} 3. ${c} `, 'OTMni kiriting!');
+otm = prompt(`${ism}  Qaysi OTMni Tanlaysiz:  1. ${a} 2. ${b} 3. ${c} `, 'OTMni kiriting!(Katta harflar bilan)');
 console.log(otm);
 
 var ball;
