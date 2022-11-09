@@ -21,6 +21,8 @@ var grand = 'Siz talabalikka grandga qabul qilindingiz';
 var kontrakt = 'Siz talabalikka kontrakt qabul qilindingiz';
 var superkontrakt = 'Siz talabalikka qabul qilinmadingiz';
 
+var not = "siz noto'g'ri malumot kiritdingiz"
+
 if (a == otm) {
 
     if (ball >= 150) {
@@ -37,6 +39,10 @@ if (a == otm) {
 
 }
 
+else{
+    alert(not)
+}
+
 if (b == otm) {
 
     if (ball >= 160) {
@@ -49,6 +55,10 @@ if (b == otm) {
         alert(superkontrakt);
     }
 
+}
+
+else{
+    alert(not)
 }
 
 if (c == otm) {
@@ -65,4 +75,6 @@ if (c == otm) {
 
 }
 
-
+else{
+    alert(not)
+}
